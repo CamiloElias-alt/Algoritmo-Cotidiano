@@ -8,16 +8,25 @@
      <link rel="shortcut icon" href="./assets/icono.png">
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary">
+    <!--inicio de navegacion-->
+    <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid" style="background-color: rgb(253, 30, 30);">
             <div class="navbar-brand d-flex">
                 <img src="./assets/icono.png" width="60px" alt="">
-                <h1>Blog</h1>
+                <h1 class="h1 text-white m-2">Blog</h1>
             </div>
             <form class="d-flex" role="search">
                 <a href=""><button type="button" class="btn btn-dark">Iniciar sesión</button></a>
             </form>
         </div>
     </nav>
+    <!--fin de navegacion-->
+    <section class="position-relative">
+        <img src="./assets/foto-tec.webp" class="rounded mx-auto d-block" width="75%" alt="">
+        <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h3 class="text-warning bg-dark">Conoce más sobre la tecnología.</h3>
+            <a href=""><button type="button" class="btn btn-dark">Entrar</button></a>
+        </div>
+    </section>
 </body>
 </html>
