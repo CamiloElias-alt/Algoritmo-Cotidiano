@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Algoritmo Cotidiano</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+     <link rel="shortcut icon" href="./assets/icono.png">
 </head>
 <body>
-    
+    <!--inicio de navegacion-->
+    <nav class="navbar bg-body-tertiary secondarytertiary navbar-expand-md sticky-top">
+        <div class="container-fluid" style="background-color: rgb(253, 30, 30);">
+            <button
+                class="navbar-toggler m-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <div class="navbar-brand d-flex">
+                    <img src="./assets/icono.png" class="d-none d-md-block" width="60px" alt="">
+                    <h1 class="h1 text-white ms-3">Blog</h1>
+                </div>
+                <div class="d-flex ms-auto mb-1" role="search">
+                    <a href=""><button type="button" class="btn btn-dark">Iniciar sesión</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--fin de navegacion-->
+    <!--inicio de seccion-->
+    <section class="position-relative" >
+        <img src="./assets/foto-tec.webp" class="rounded mx-auto d-block" width="85%" alt="">
+        <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h3 class="text-warning bg-dark">Conoce más sobre la tecnología.</h3>
+            <a href=""><button type="button" class="btn btn-dark">Entrar</button></a>
+        </div>
+    </section>
+    <!--fin de seccion-->
+    <!--inicio de pie de pagina-->
+    <footer class="navbar navbar-dark mt-2" style="background-color: rgb(253, 30, 30);">
+        <div class="container-fluid text-center text-sm-start">
+            <div class="row align-items-center w-100">
+                <div class="col-12 col-sm-6 d-flex flex-column flex-sm-row align-items-center mb-3 mb-sm-0">
+                    <img src="./assets/Gmail.png" class="img-fluid" style="max-width: 100px;" alt="">
+                    <div class="m-2">
+                        <a href=""><button type="button" class="btn btn-dark">Contáctanos</button></a>
+                        <p class="text-white">¿Tienes dudas o sugerencias?<br> Escríbenos a nuestro correo y te responderemos lo antes posible.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 d-flex flex-column flex-sm-row align-items-center mb-3 mb-sm-0" >
+                    <div>
+                        <a href=""><button type="button" class="btn btn-dark">Términos y Condiciones</button></a>
+                    </div>
+                    <div class="m-1">
+                        <a href=""><button type="button" class="btn btn-dark">Política de Privacidad</button></a>
+                    </div>
+                    <div>
+                        <a href=""><button type="button" class="btn btn-dark">Acerca de Nosotros</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </html>
