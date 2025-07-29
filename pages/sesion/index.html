@@ -23,31 +23,54 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                 <div class="navbar-brand d-flex">
-                    <img src="./assets/icono.png" class="d-none d-md-block" width="60px" alt="">
-                    <h1 class="h1 text-white ms-3">Blog</h1>
+                    <img src="../../assets/icono.png" class="d-none d-md-block" width="60px" alt="">
+                    <h1 class="h1 text-white ms-3">Algoritmo Cotidiano</h1>
                 </div>
                 <div class="d-flex ms-auto mb-1" role="search">
-                    <a href="./pages/sesion/index.html"><button type="button" class="btn btn-dark">Iniciar sesión</button></a>
+                    <a href=""><button type="button" class="btn btn-dark">Iniciar sesión</button></a>
                 </div>
             </div>
         </div>
     </nav>
     <!--fin de navegacion-->
     <!--inicio de seccion-->
-    <section class="position-relative" >
-        <img src="./assets/foto-tec.webp" class="rounded mx-auto d-block" width="85%" alt="">
-        <div class="position-absolute top-50 start-50 translate-middle text-center">
-            <h3 class="text-warning bg-dark">Conoce más sobre la tecnología.</h3>
-            <a href=""><button type="button" class="btn btn-dark">Entrar</button></a>
-        </div>
-    </section>
+      <div class="d-flex justify-content-center mt-5">
+  <form>
+    <div class="mb-3">
+      <label for="inputNombre" class="form-label">Nombre:</label>
+      <input type="text" id="inputNombre" class="form-control" placeholder="Nombre">
+    </div>
+
+    <div class="mb-3">
+      <label for="inputApellido" class="form-label">Apellido:</label>
+      <input type="text" id="inputApellido" class="form-control" placeholder="Apellido">
+    </div>
+
+    <div class="mb-3">
+      <label for="inputEmail" class="form-label">Correo electrónico:</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Algoritmo@Cotidiano.com">
+    </div>
+
+    <div class="mb-3">
+      <label for="inputPassword" class="form-label">Contraseña:</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" aria-describedby="passwordHelpInline">
+      <div id="passwordHelpInline" class="form-text">
+        Debe tener entre 8 y 20 caracteres.
+      </div>
+    </div>
+
+    <div class="mb-3 text-center">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
+</div>
     <!--fin de seccion-->
     <!--inicio de pie de pagina-->
     <footer class="navbar navbar-dark mt-2" style="background-color: rgb(253, 30, 30);">
         <div class="container-fluid text-center text-sm-start">
             <div class="row align-items-center w-100">
                 <div class="col-12 col-sm-6 d-flex flex-column flex-sm-row align-items-center mb-3 mb-sm-0">
-                    <img src="./assets/Gmail.png" class="img-fluid" style="max-width: 100px;" alt="">
+                    <img src="../../assets/Gmail.png" class="img-fluid" style="max-width: 100px;" alt="">
                     <div class="m-2">
                         <a href=""><button type="button" class="btn btn-dark">Contáctanos</button></a>
                         <p class="text-white">¿Tienes dudas o sugerencias?<br> Escríbenos a nuestro correo y te responderemos lo antes posible.</p>
