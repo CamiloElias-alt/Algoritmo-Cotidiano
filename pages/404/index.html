@@ -1,18 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> una pagina con imagen</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>  Object not found! The requested URL was not found on this server. If you entered the URL manually please check your spelling and try again.
-
-If you think this is a server error, please contact the webmaster.
-
-Error 404 127.0.0.1 Apache/2.4.34 (Win32) OpenSSL/1.1.0i PHP/7.2.10
-  </h1>
-  <img src="" alt="error pagina 404 ">
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página no encontrada</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar bg-body-tertiary secondarytertiary navbar-expand-md sticky-top py-0"
+    >
+      <div class="container-fluid" style="background-color: rgb(12, 29, 255)">
+        <button
+          class="navbar-toggler m-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+          <div class="navbar-brand d-flex">
+            <img
+              src="/assets/icono.png"
+              class="d-none d-md-block"
+              width="60px"
+              alt=""
+            />
+            <h1 class="h1 text-white ms-3">Algoritmo Cotidiano</h1>
+          </div>
+          <div class="d-flex ms-auto mb-1" role="search">
+            <a href="./pages/sesion/index.html"
+              ><button type="button" class="btn btn-dark">
+                Iniciar sesión
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="contenedor-404">
+      <div class="imagen-404">
+        <h1>404</h1>
+        <p class="fs-2">Lo sentimos, la página que buscas no existe.</p>
+        <a href="/">
+          <button class="btn btn-success">Volver al inicio</button>
+        </a>
+      </div>
+    </div>
+    <footer
+      class="navbar navbar-dark mt-2"
+      style="background-color: rgb(12, 29, 255)"
+    >
+      <div class="container-fluid text-center text-md-start">
+        <div class="row align-items-center w-100">
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0"
+          >
+            <img
+              src="../../assets/Gmail.png"
+              class="img-fluid"
+              style="max-width: 100px"
+              alt=""
+            />
+            <div class="m-2">
+              <a href=""
+                ><button type="button" class="btn btn-dark">
+                  Contáctanos
+                </button></a
+              >
+              <p class="text-white">
+                ¿Tienes dudas o sugerencias?<br />
+                Escríbenos a nuestro correo y te responderemos lo antes posible.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0"
+          >
+            <div>
+              <a href="./pages/Terminos y Condiciones/index.html"
+                ><button type="button" class="btn btn-dark">
+                  Términos y Condiciones
+                </button></a
+              >
+            </div>
+            <div class="m-1">
+              <a href=""
+                ><button type="button" class="btn btn-dark">
+                  Política de Privacidad
+                </button></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><button type="button" class="btn btn-dark">
+                  Acerca de Nosotros
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </html>

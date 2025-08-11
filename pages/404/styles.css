@@ -1,3 +1,42 @@
-h1 {
-    background-color: blue; border-radius: 50%; 
+.contenedor-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.imagen-404 {
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/404/404-bg.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.imagen-404 h1 {
+  position: absolute;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.imagen-404 p {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.imagen-404 a {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
 }
