@@ -1,0 +1,144 @@
+.navbar-algoritmo {
+  box-shadow: 0px 5px 5px #b2b2b2;
+}
+
+.titulo-principal {
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 0ch;
+  animation: typing 3s steps(18, end) infinite alternate,
+    blink 0.7s step-end infinite;
+}
+
+.separador {
+  border: 1px solid #0c6ffd;
+  width: 1px;
+  height: 20px;
+}
+
+.banner-principal {
+  background-image: url(../../assets/principal/background-principal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 768px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-principal span {
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+  font-size: 30px;
+  text-align: center;
+}
+
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+  to {
+    width: 18ch;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(60, 60, 60);
+  }
+}
+
+.footer-algoritmo {
+  padding: 50px 0;
+}
+
+.footer-algoritmo h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-algoritmo ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-algoritmo ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-algoritmo ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-algoritmo .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-algoritmo .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-algoritmo .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-algoritmo .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-algoritmo .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-algoritmo .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-algoritmo .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer-algoritmo .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-algoritmo .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
